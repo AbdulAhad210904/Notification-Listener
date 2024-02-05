@@ -12,7 +12,6 @@ public class NotificationManager
     private uint lastSeenNotificationId = 0;
     private DateTime lastSeenNotificationTime = DateTime.MinValue;
 
-
     public async Task InitializeListener()
     {
         listener = UserNotificationListener.Current;
